@@ -4,9 +4,9 @@
 
 I developed the DevLink project where we created a links page.
 
-<!-- ## 🎥 Implementation Video
+## 🎥 Implementation Video
 
-In the GitHub edit, drag the video that it already puts on github itself. -->
+Link in [Vercel](https://sprightly-caramel-cd9d3a.netlify.app/)
 
 ## 🎨 Layout
 
