@@ -1,7 +1,9 @@
 import './global.css'
 import styles from './App.module.css'
+
 import { LinkButtom } from './components/LinkButtom'
 import { SocialLink } from './components/SocialLink'
+import { ToglleModeButtom } from './components/ToglleModeButtom'
 
 const links = [
   {
@@ -36,6 +38,8 @@ export function App() {
         />
         <p>@VagnerNerves</p>
       </div>
+
+      <ToglleModeButtom />
 
       <div className={styles.link}>
         <ul>
