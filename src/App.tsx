@@ -54,10 +54,10 @@ export function App() {
       </div>
 
       <div className={styles.socialLinks}>
-        <SocialLink url="#" typeLinks="github" />
-        <SocialLink url="#" typeLinks="instragram" />
-        <SocialLink url="#" typeLinks="youtube" />
-        <SocialLink url="#" typeLinks="linkedin" />
+        <SocialLink url="#" typeLinks="Github" />
+        <SocialLink url="#" typeLinks="Instragram" />
+        <SocialLink url="#" typeLinks="Youtube" />
+        <SocialLink url="#" typeLinks="Linkedin" />
       </div>
 
       <footer>
