@@ -22,6 +22,7 @@ Describe what you learned and implemented in the project. -->
 
 - [x] [Vite](https://vitejs.dev/)
 - [x] React
+- [x] TypeScript
 - [x] [React Icons](https://react-icons.github.io/react-icons)
 
 ## 🚀 Running the project
