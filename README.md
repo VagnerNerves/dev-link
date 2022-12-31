@@ -4,9 +4,15 @@
 
 I developed the DevLink project where we created a links page.
 
+Link in [Vercel](https://sprightly-caramel-cd9d3a.netlify.app/)
+
 ## 🎥 Implementation Video
 
-Link in [Vercel](https://sprightly-caramel-cd9d3a.netlify.app/)
+
+
+https://user-images.githubusercontent.com/40831841/210150883-3c4f6217-bf2b-4ccf-993f-bc7277a97d5a.mp4
+
+
 
 ## 🎨 Layout
 
