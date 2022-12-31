@@ -1,6 +1,7 @@
 import './global.css'
 import styles from './App.module.css'
 import { LinkButtom } from './components/LinkButtom'
+import { SocialLink } from './components/SocialLink'
 
 const links = [
   {
@@ -46,6 +47,12 @@ export function App() {
             )
           })}
         </ul>
+      </div>
+
+      <div className={styles.socialLinks}>
+        <SocialLink url="#" typeLinks="github" />
+        <SocialLink url="#" typeLinks="linkedin" />
+        <SocialLink url="#" typeLinks="instragram" />
       </div>
     </div>
   )
