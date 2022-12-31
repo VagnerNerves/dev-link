@@ -1,16 +1,17 @@
 .switch {
   position: relative;
-  width: 64px;
+  width: 4rem;
 
-  margin: 4px auto;
+  margin: 0.25rem auto;
 }
 
 .switch button {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   background: #fff var(--switch-bg-url) no-repeat center;
   border: 0;
   border-radius: 50%;
+  cursor: pointer;
 
   position: absolute;
   top: 50%;
@@ -26,18 +27,18 @@
 }
 
 .switch button:hover {
-  outline: 8px solid var(--highlight-color);
+  outline: 0.5rem solid var(--highlight-color);
 }
 
 .switch span {
   display: block;
-  width: 64px;
-  height: 24px;
+  width: 4rem;
+  height: 1.5rem;
 
   background: var(--surface-color);
-  border: 1px solid var(--stroke-color);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  border: 0.0625rem solid var(--stroke-color);
+  backdrop-filter: blur(0.25rem);
+  -webkit-backdrop-filter: blur(0.25rem);
 
   border-radius: 9999px;
 }

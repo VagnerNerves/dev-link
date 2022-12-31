@@ -3,14 +3,14 @@
   justify-content: center;
   align-items: center;
 
-  padding: 16px 24px;
+  padding: 1rem 1.5rem;
 
   background: var(--surface-color);
-  border: 1px solid var(--stroke-color);
-  border-radius: 8px;
+  border: 0.0625rem solid var(--stroke-color);
+  border-radius: 0.5rem;
 
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(0.25rem);
+  -webkit-backdrop-filter: blur(0.25rem);
 
   text-decoration: none;
   font-weight: 500;
@@ -20,5 +20,5 @@
 
 .link:hover {
   background: var(--surface-color-hover);
-  border: 1.5px solid var(--text-color);
+  border: 0.09375rem solid var(--text-color);
 }
