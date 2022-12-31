@@ -14,7 +14,7 @@ interface SocialLinkProps {
 
 export function SocialLink({ url, typeLinks }: SocialLinkProps) {
   return (
-    <a className={styles.socialLinks} href="">
+    <a className={styles.socialLinks} href={url} target="_blank">
       {typeLinks == 'github' ? <IoLogoGithub size={24} /> : ''}
       {typeLinks == 'instragram' ? <IoLogoInstagram size={24} /> : ''}
       {typeLinks == 'youtube' ? <IoLogoYoutube size={24} /> : ''}
