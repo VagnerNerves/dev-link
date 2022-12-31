@@ -32,3 +32,13 @@
 
   margin-top: 8px;
 }
+
+.link ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  padding: 24px 0;
+}

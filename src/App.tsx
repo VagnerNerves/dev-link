@@ -1,5 +1,29 @@
 import './global.css'
 import styles from './App.module.css'
+import { LinkButtom } from './components/LinkButtom'
+
+const links = [
+  {
+    id: 1,
+    url: '#',
+    name: 'Inscrever-se no NLW'
+  },
+  {
+    id: 2,
+    url: '#',
+    name: 'Baixar meu e-book'
+  },
+  {
+    id: 3,
+    url: '#',
+    name: 'Veja meu portfólio'
+  },
+  {
+    id: 4,
+    url: '#',
+    name: 'Conheça o Explorer'
+  }
+]
 
 export function App() {
   return (
@@ -10,6 +34,18 @@ export function App() {
           alt="Foto de Vagner Nerves"
         />
         <p>@VagnerNerves</p>
+      </div>
+
+      <div className={styles.link}>
+        <ul>
+          {links.map(link => {
+            return (
+              <li key={link.id}>
+                <LinkButtom url={link.url} name={link.name} />
+              </li>
+            )
+          })}
+        </ul>
       </div>
     </div>
   )
