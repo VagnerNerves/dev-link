@@ -51,9 +51,17 @@ export function App() {
 
       <div className={styles.socialLinks}>
         <SocialLink url="#" typeLinks="github" />
-        <SocialLink url="#" typeLinks="linkedin" />
         <SocialLink url="#" typeLinks="instragram" />
+        <SocialLink url="#" typeLinks="youtube" />
+        <SocialLink url="#" typeLinks="linkedin" />
       </div>
+
+      <footer>
+        Feito com ♥ pela{' '}
+        <a href="https://rocketseat.com.br/" target="_blank">
+          Rocketseat
+        </a>
+      </footer>
     </div>
   )
 }
