@@ -6,8 +6,8 @@ export function ToglleModeButtom() {
   }
 
   return (
-    <div className={styles.switch} onClick={handleToglleMode}>
-      <button></button>
+    <div className={styles.switch}>
+      <button onClick={handleToglleMode}></button>
       <span></span>
     </div>
   )
