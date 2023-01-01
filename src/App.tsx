@@ -61,7 +61,7 @@ export function App() {
         />
         <SocialLink
           url="https://www.instagram.com/vagnernerves/"
-          typeLinks="Instragram"
+          typeLinks="Instagram"
         />
         <SocialLink
           url="https://www.youtube.com/@VagnerNerves"
