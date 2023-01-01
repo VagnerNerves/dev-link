@@ -4,7 +4,7 @@
 
 I developed the DevLink project where we created a links page.
 
-Link in [Vercel](https://sprightly-caramel-cd9d3a.netlify.app/)
+Link in [Netlify](https://sprightly-caramel-cd9d3a.netlify.app/)
 
 ## 🎥 Implementation Video
 
