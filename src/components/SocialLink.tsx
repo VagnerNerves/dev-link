@@ -12,18 +12,21 @@ import {
 
 import styles from './SocialLink.module.css'
 
+const TYPE_LINKS = {
+  Twitter: <IoLogoTwitter size={24} />,
+  Twitch: <IoLogoTwitch size={24} />,
+  Github: <IoLogoGithub size={24} />,
+  Facebook: <IoLogoFacebook size={24} />,
+  Instagram: <IoLogoInstagram size={24} />,
+  Youtube: <IoLogoYoutube size={24} />,
+  Linkedin: <IoLogoLinkedin size={24} />,
+  Whatsapp: <IoLogoWhatsapp size={24} />,
+  Tiktok: <IoLogoTiktok size={24} />
+}
+
 interface SocialLinkProps {
   url: string
-  typeLinks:
-    | 'Twitter'
-    | 'Twitch'
-    | 'Github'
-    | 'Facebook'
-    | 'Instragram'
-    | 'Youtube'
-    | 'Linkedin'
-    | 'Whatsapp'
-    | 'Tiktok'
+  typeLinks: keyof typeof TYPE_LINKS
 }
 
 export function SocialLink({ url, typeLinks }: SocialLinkProps) {
@@ -34,15 +37,7 @@ export function SocialLink({ url, typeLinks }: SocialLinkProps) {
       target="_blank"
       title={typeLinks}
     >
-      {typeLinks == 'Twitter' ? <IoLogoTwitter size={24} /> : ''}
-      {typeLinks == 'Twitch' ? <IoLogoTwitch size={24} /> : ''}
-      {typeLinks == 'Github' ? <IoLogoGithub size={24} /> : ''}
-      {typeLinks == 'Facebook' ? <IoLogoFacebook size={24} /> : ''}
-      {typeLinks == 'Instragram' ? <IoLogoInstagram size={24} /> : ''}
-      {typeLinks == 'Youtube' ? <IoLogoYoutube size={24} /> : ''}
-      {typeLinks == 'Linkedin' ? <IoLogoLinkedin size={24} /> : ''}
-      {typeLinks == 'Whatsapp' ? <IoLogoWhatsapp size={24} /> : ''}
-      {typeLinks == 'Tiktok' ? <IoLogoTiktok size={24} /> : ''}
+      {TYPE_LINKS[typeLinks]}
     </a>
   )
 }
